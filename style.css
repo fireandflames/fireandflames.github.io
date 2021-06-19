@@ -15,7 +15,7 @@ img {
 
 p {
     margin: 5px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 #header {
@@ -48,8 +48,8 @@ h1 {
     margin: 0%;
 }
 
-@media (max-width: 800px) and (max-height: 2000px) {
-    div.gallery {
+@media (max-width: 540px) and (max-height: 960px) {
+    .gallery {
         margin: 5px;
         border: 1px solid #ccc;
     }
@@ -81,12 +81,13 @@ h1 {
         color: #000;
     }
     #container {
-        background: yellow;
+        background: ghostwhite;
         display: flex;
         flex-direction: column;
     }
     .biggallery {
         height: auto;
+        word-wrap: break-word;
     }
     h1 {
         text-align: center;
