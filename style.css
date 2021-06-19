@@ -48,7 +48,7 @@ h1 {
     margin: 0%;
 }
 
-@media (max-width: 540px) and (max-height: 960px) {
+@media (max-width: 800px) and (max-height: 2000px) {
     div.gallery {
         margin: 5px;
         border: 1px solid #ccc;
@@ -81,7 +81,7 @@ h1 {
         color: #000;
     }
     #container {
-        background: ghostwhite;
+        background: yellow;
         display: flex;
         flex-direction: column;
     }
